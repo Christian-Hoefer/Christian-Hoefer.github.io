@@ -68,14 +68,14 @@ main {
 
 #table-header {
     background-color: #00FF00;
-    /* Dark blue background for header */
+    /* Bright green to match */
     color: #000000;
     /* Black text on green for contrast */
 }
 
 .table-row {
     background-color: #111111;
-    /* Light gray background for rows */
+    /* Black rows to match */
     color: #FFFFFF;
 }
 
