@@ -69,8 +69,8 @@ main {
 #table-header {
     background-color: #00FF00;
     /* Dark blue background for header */
-    color: #FFFFFF;
-    /* White text for header */
+    color: #000000;
+    /* Black text on green for contrast */
 }
 
 .table-row {
