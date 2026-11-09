@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Guess a Number </title>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Guess the Number!</h1>
+        <h2>Guess a number between 1 and 99 in seven attempts!</h2>
+    </header>
+    <br>
+    <div id="main">
+        Enter a guess:
+        <input type="text" id="playerGuess" size="5">
+        <button id="guessBtn"> Guess </button> <br>
+        <button id="resetBtn"> Reset </button>
+        <div id="feedback"></div>
+        <div> Attempts left: <span id="attemptsLeft">7</span></div>
+        <div> Previous Guesses:
+            <span id="guesses"></span>
+        </div>
+        <div id="stats">
+            Wins: <span id="wins">0</span> &nbsp; |&nbsp; Losses: <span id="losses">0</span>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Christian Hoefer. All rights reserved.</p>
+        <p>This site is for academic purposes only.</p>
+        <p>CST 336 Internet Programming.</p>
+        <img src="img/csumb-logo.png" alt="CSUMB logo">
+        <p>Background image from
+            <a href="https://www.pixelstalk.net/hd-circuit-board-background/" target="_blank">PixelsTalk</a>.
+        </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

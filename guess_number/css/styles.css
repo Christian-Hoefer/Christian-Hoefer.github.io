@@ -1,0 +1,122 @@
+body {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url("../img/background.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #FFFFFF;
+    font-family: "Open Sans", Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    margin: 0;
+    padding: 1rem;
+}
+
+header {
+    padding: 1rem;
+}
+
+h1 {
+    color: #00FF00;
+    letter-spacing: 0.05em;
+    margin: 0;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 1.2rem;
+    color: #b0b0b0;
+    margin: 0.5rem 0 0;
+}
+
+#main {
+    background-color: rgba(17, 17, 17, 0.9);
+    width: min(100%, 36rem);
+    margin: 0 auto;
+    padding: 1.5rem 1rem;
+    border-left: 4px solid #00FF00;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px rgba(0, 255, 0, 0.15);
+    font-size: 1.2rem;
+    box-sizing: border-box;
+}
+
+#playerGuess {
+    font-family: "Courier New", monospace;
+    font-size: 1.2rem;
+    width: 4rem;
+    text-align: center;
+    background-color: #000000;
+    color: #00FF00;
+    border: 1px solid #1f5f1f;
+    border-radius: 4px;
+    padding: 0.25rem;
+}
+
+#playerGuess:focus {
+    outline: none;
+    border-color: #00FF00;
+}
+
+button {
+    font-family: inherit;
+    font-size: 1rem;
+    color: #00FF00;
+    background-color: #000000;
+    border: 2px solid #00FF00;
+    border-radius: 4px;
+    padding: 0.25rem 1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    color: #FFFFFF;
+    background-color: #173f73;
+}
+
+#feedback {
+    background-color: #000000;
+    border: 1px solid #1f5f1f;
+    border-radius: 4px;
+    font-weight: bold;
+    min-height: 1.6em;
+    padding: 0.5rem;
+    margin: 1rem 0;
+}
+
+#guesses {
+    font-family: "Courier New", monospace;
+    color: #00FF00;
+}
+
+#stats {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #1f5f1f;
+    font-size: 1rem;
+}
+
+#attemptsLeft,
+#wins,
+#losses {
+    color: #00FF00;
+    font-weight: bold;
+}
+
+
+footer {
+    font-size: 0.85rem;
+    color: #b0b0b0;
+}
+
+footer img {
+    width: 120px;
+}
+
+footer a {
+    color: #00FF00;
+}
