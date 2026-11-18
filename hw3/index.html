@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> Fake Profile Generator </title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <h1> Fake Profile Generator </h1>
+    <form id="fakerForm">
+        <label>Data type:
+            <select id="resource">
+                <option value="persons">People</option>
+                <option value="companies">Companies</option>
+                <option value="addresses">Addresses</option>
+            </select>
+        </label><br>
+
+        <label>How many (1-10):
+            <input type="text" id="quantity">
+        </label>
+        <span id="quantityError"></span><br>
+
+        <span class="field-name">Gender (For People Only):</span>
+        <label><input type="radio" name="gender" value="" checked> Any</label>
+        <label><input type="radio" name="gender" value="male"> Male</label>
+        <label><input type="radio" name="gender" value="female"> Female</label><br>
+
+        <label>Locale:
+            <select id="locale">
+                <option value="en_US">English (US)</option>
+                <option value="es_ES">Spanish</option>
+                <option value="fr_FR">French</option>
+                <option value="ja_JP">Japanese</option>
+            </select>
+        </label><br>
+
+        <button>Generate</button>
+    </form>
+
+    <div id="results"></div>
+
+    <footer>
+        <p>&copy; 2026 Christian Hoefer. All rights reserved.</p>
+        <p>This site is for academic purposes only.</p>
+        <p>CST 336 Internet Programming.</p>
+        <img src="img/csumb-logo.png" alt="CSUMB logo">
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

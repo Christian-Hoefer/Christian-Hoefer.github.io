@@ -1,0 +1,176 @@
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: "Open Sans", Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    margin: 0;
+    padding: 1rem;
+}
+
+h1 {
+    color: #00FF00;
+    letter-spacing: 0.05em;
+    margin: 1rem 0;
+}
+
+#fakerForm {
+    background-color: rgba(17, 17, 17, 0.9);
+    width: min(100%, 36rem);
+    margin: 0 auto;
+    padding: 1.5rem 1rem;
+    border-left: 4px solid #00FF00;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px rgba(0, 255, 0, 0.15);
+    text-align: left;
+    line-height: 2.4;
+    box-sizing: border-box;
+}
+
+label {
+    color: #b0b0b0;
+}
+
+input[type="text"] {
+    font-family: "Courier New", monospace;
+    font-size: 1rem;
+    background-color: #000000;
+    color: #00FF00;
+    border: 1px solid #1f5f1f;
+    border-radius: 4px;
+    padding: 0.25rem 0.5rem;
+}
+
+input:focus {
+    outline: none;
+    border-color: #00FF00;
+}
+
+input[type="radio"] {
+    accent-color: #00FF00;
+    margin-left: 0.75rem;
+}
+
+select {
+    font-family: inherit;
+    font-size: 1rem;
+    background-color: #000000;
+    color: #00FF00;
+    border: 1px solid #1f5f1f;
+    border-radius: 4px;
+    padding: 0.25rem 0.5rem;
+    min-width: 12rem;
+}
+
+select:focus {
+    outline: none;
+    border-color: #00FF00;
+}
+
+option {
+    background-color: #111111;
+    color: #FFFFFF;
+}
+
+input:hover,
+select:hover {
+    border-color: #00FF00;
+}
+
+#quantityError {
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+    font-weight: bold;
+}
+
+
+button {
+    display: block;
+    margin: 1rem auto 0;
+    font-family: inherit;
+    font-size: 1rem;
+    color: #00FF00;
+    background-color: #000000;
+    border: 2px solid #00FF00;
+    border-radius: 4px;
+    padding: 0.25rem 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    color: #FFFFFF;
+    background-color: #173f73;
+}
+
+button:active {
+    transform: scale(0.97);
+}
+
+input,
+select {
+    transition: border-color 0.3s;
+}
+
+@media (max-width: 500px) {
+    #fakerForm {
+        padding: 1rem 0.75rem;
+    }
+
+    select {
+        min-width: 9rem;
+    }
+}
+
+#results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    width: min(100%, 60rem);
+    margin: 1.5rem auto;
+}
+
+.card {
+    background-color: rgba(17, 17, 17, 0.9);
+    border-left: 4px solid #00FF00;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px rgba(0, 255, 0, 0.15);
+    padding: 1rem;
+    width: 16rem;
+    text-align: left;
+    box-sizing: border-box;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+}
+
+.card h3 {
+    color: #00FF00;
+    font-size: 1.1rem;
+    margin: 0 0 0.5rem;
+}
+
+.card p {
+    color: #b0b0b0;
+    font-family: "Courier New", monospace;
+    font-size: 0.9rem;
+    margin: 0.25rem 0;
+    overflow-wrap: anywhere;
+}
+
+.field-name {
+    color: #b0b0b0;
+}
+
+footer {
+    font-size: 0.85rem;
+    color: #b0b0b0;
+    text-align: center;
+}
+
+footer img {
+    width: 120px;
+}
